@@ -2,9 +2,13 @@ package com.asantana4.learning.visitaveterinario;
 
 public class Veterinario {
 
-    public void ponerVacuna(Animal a) {
-        System.out.println("Poniendo la vacuna...");
-        a.hacerSonido();
-    }
+    public boolean ponerVacuna(Mascota m) {
 
+        if (m.puedeSerVacunada()) {
+            System.out.println("Poniendo la vacuna...");
+            m.hacerSonido();
+            return true;
+        }
+        return false;
+    }
 }

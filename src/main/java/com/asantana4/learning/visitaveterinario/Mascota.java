@@ -5,6 +5,7 @@ public class Mascota {
     private int edadAños;
     private double pesoLb;
     private int dosisRecibidas;
+    public static final int CANT_TOTAL_DOSIS = 3;
 
 
     protected Mascota(String nombre, int edad, double pesoLb, int edadMax, double pesoMaxLb) {
@@ -19,22 +20,20 @@ public class Mascota {
         this.pesoLb = pesoLb;
     }
 
-    public void hacerSonido() {
+    protected void hacerSonido() {
         System.out.println(nombre + " hace un tipo de sonido.");
     }
 
     public boolean puedeSerVacunada() {
 
-        return edadAños >= 2 && pesoLb >= 3 && dosisRecibidas <= 3;
+        return edadAños >= 2 && pesoLb >= 3 && dosisRecibidas < 3;
     }
 
-    public boolean recibirDosis() {
+    public void recibirDosis() {
 
         if (dosisRecibidas < 3) {
             dosisRecibidas++;
-            return true;
         }
-        return false;
     }
 
     public int getEdad() {

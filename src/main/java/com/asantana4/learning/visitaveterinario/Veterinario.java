@@ -6,6 +6,7 @@ public class Veterinario {
 
         if (m.puedeSerVacunada()) {
             System.out.println("Poniendo la vacuna...");
+            m.recibirDosis();
             m.hacerSonido();
             return true;
         }

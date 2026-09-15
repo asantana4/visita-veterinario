@@ -38,7 +38,11 @@ public class Main {
 
                 limpiarConsola();
                 if (respuesta.equalsIgnoreCase("v")) {
-                    v.ponerVacuna(m);
+                    if(v.ponerVacuna(m)) {
+                        int dosisRestantes = Mascota.CANT_TOTAL_DOSIS - m.getDosisRecibidas();
+                        System.out.println("Su mascota ha sido vacunada y le restan " +
+                        dosisRestantes + " dosis.");
+                    }
                 } else {
                     System.out.println("Vacunación cancelada por el usuario.");
                 }

@@ -30,9 +30,9 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.1.1</version>
                 <configuration>
-                    <mainClass>com.asantana4.learning.visitaveterinario.Veterinario</mainClass>
+                    <mainClass>com.asantana4.learning.visitaveterinario.Main</mainClass>
                 </configuration>
             </plugin>
 

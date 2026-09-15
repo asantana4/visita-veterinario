@@ -23,7 +23,7 @@ Para ejecutar este proyecto desde la consola, necesitarás tener instalados:
 Clona este repositorio en tu máquina local ejecutando el siguiente comando:
 
 ```bash
-git clone [https://github.com/tu-usuario/visita-veterinario.git](https://github.com/tu-usuario/visita-veterinario.git)
+git clone [https://github.com/asantana4/visita-veterinario.git](https://github.com/asantana4/visita-veterinario.git)
 cd visita-veterinario
 ```
 

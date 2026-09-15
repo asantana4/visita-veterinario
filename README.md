@@ -27,7 +27,7 @@ git clone [https://github.com/asantana4/visita-veterinario.git](https://github.c
 cd visita-veterinario
 ```
 
-Alternativamente, puedes descargar el repositorio como un archivo ZIP desde GitHub y extraerlo.
+Alternativamente, puedes descargar el repositorio como un archivo ZIP desde GitHub y extraerlo a través del menú que se despliega al hacer clic en el botón verde de la parte superior llamado Code.
 
 ## Ejecutando el proyecto (Running the project)
 Puedes compilar, ejecutar las pruebas y correr el programa directamente desde la línea de comandos de tu terminal usando Maven.
